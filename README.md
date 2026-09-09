@@ -1,7 +1,7 @@
 # POO
 Este es un repositorio sobre la asignatura de POO en CUGDL, donde puedes consultar el material diario de clase, las tareas y el código con soluciones implementadas de diversas formas.
 
-**Ejercicio 1 y continuación del ejercicio 3:**
+**Ejercicios 1 al 3:**
 
  🚗 Proyecto: Clase VehiculoUber (POO en Python)
 
@@ -23,23 +23,32 @@ El programa modela el comportamiento de un vehículo de la plataforma Uber, gest
 3. Ejecuta el archivo desde la terminal:
 
 This is a repository about the subject POO in CUGDL where you can see the daily class material, homework and code that makes a solutions in different ways.
-**Exercise 1 and continuation to exercise 3:**
 
-🚗 Project: `VehiculoUber` Class (OOP in Python)
+----
+# 📧 Clase CuentaCorreo - Ejercicio POO en Python ejercicio 4. 
 
-This repository contains the implementation of the `VehiculoUber` class, developed in Python as part of an Object-Oriented Programming course.
+Este repositorio contiene un ejercicio práctico básico enfocado en los fundamentos de la **Programación Orientada a Objetos (POO)** en Python. El objetivo principal es la creación de una clase simple para representar las credenciales de una cuenta de correo electrónico.
 
-## 📌 Project Description
-The program models the behavior of a vehicle on the Uber platform, managing attributes such as the driver's balance, base fare, and vehicle details, as well as methods to start and complete trips.
+---
 
-## 🛠️ Applied OOP Concepts
-* **Classes and Objects:** Modeling the `VehiculoUber` entity.
-* **Constructor (`__init__`):** Initialization of instance attributes.
-* **Use of `self`:** Accessing and modifying attributes within the class.
-* **Accumulators:** Updating the driver's balance after each trip.
+## 🎯 Objetivos de Aprendizaje
 
-## 🚀 How to Run the Code
+- Declaración e instanciación de clases en Python (`class`).
+- Definición del método constructor (`__init__`).
+- Asignación y uso del parámetro `self` para manejar atributos de instancia.
+- Creación e invocación de métodos de clase.
+- Formateo de cadenas con **f-strings**.
 
-1. Clone this repository or download the `.py` file.
-2. Ensure Python 3.x is installed.
-3. Run the file from the terminal:
+---
+
+## 🛠️ Estructura del Código
+
+1. **Definición de la Clase `CuentaCorreo`:**
+   - **Atributos de Instancia:** `usuario` y `password`.
+   - **Métodos:** `mostrar_info()` que imprime el estado actual de la cuenta.
+
+2. **Prueba y Ejecución:**
+   - Creación del objeto `mi_cuenta`.
+   - Llamada al método `mostrar_info()` para verificar la salida por consola.
+
+---
